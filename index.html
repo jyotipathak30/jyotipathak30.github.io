@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/08d58dd9d6.js" crossorigin="anonymous" async></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" async></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" async></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+#links{
+    background-image:linear-gradient(45deg, #0000ff, #ffffff);
+    width:100%;
+}
+#search{
+    color:blue;
+    border-color:blue
+}
+#search:hover{
+    color:white;
+    background-color:blue;
+}
+footer{
+    color:white;
+    width:100%;
+    height:30px;
+    background-color:rgb(80,80,90);
+    margin-bottom: 0px;
+}
+#social-icon{
+    height:30px;
+}
+footer ul{
+    list-style-type: none;
+    display: inline-block;
+    width:100%;
+}
+footer ul li{
+    float:right;
+}
+.course{
+    background-image:linear-gradient(0deg, rgba(0,200,200,0.15) 50%, white 50%);
+    width: 80%;
+    border:10px double black;
+    text-align: center;
+    margin: 20px;
+    padding:40px;
+    border-radius:30px;
+    color:navy;
+}
+.fab{
+    font-size:80px;
+    color:rgb(0,0,100);
+}
+.description{
+    background-color: rgba(150,150,150,0.5); 
+    padding:2px;
+    border-radius:30px;
+}
+hr{color:navy;
+}
+@media (min-width: 576px) {
+  .course {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .course {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .course {
+    padding: 30px;
+  }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light" id="primary-nav">
+       <img class="navbar-hrand logo" id="logo" src="../images/logo.png" height="120px">
+       <div class="collapse navbar-collapse" id="links">
+           <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+           </ul>
+           <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0 d-sm-none d-md-block" id="search" type="submit">Search</button>
+           </form>
+        </div>
+    </nav>
+    
+    
+
+  
+<div id="section">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-4  col-md-4 col-sm-6">
+              <div class="course" id="html">
+                 <i class="fab fa-html5"></i><hr/>
+                      <strong>HTML</strong><hr/>
+                 <div class="description align-middle">
+                      <cite>HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages.</cite>
+                 </div>
+               </div>
+           </div>
+           <div class="col-lg-4  col-md-4 col-sm-6">
+              <div class="course" id="css">
+                 <i class="fab fa-css3"></i><hr/>
+                      <strong> CSS</strong><hr/>
+                  <div  class="description align-middle">
+                      <cite> CSS stands for Cascading Style Sheets. CSS is used to control the style of a web document in a simple and easy way.</cite>
+                 </div>
+               </div>
+           </div>
+           <div class="col-lg-4  col-md-4 col-sm-6">
+              <div class="course" id="js">
+               <i class="fab fa-js-square"></i><hr/>
+                      <strong> JS</strong><hr/>
+                  <div  class="description align-middle">
+                      <cite>JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is open and cross-platform.</cite>
+                  </div>
+               </div>
+           </div>
+           <div class="col-lg-4  col-md-4 col-sm-6">
+              <div class="course" id="php">
+               <i class="fab fa-php"></i><hr/>
+                      <strong> PHP</strong><hr>
+                  <div  class="description align-middle">
+                      <cite>PHP stands for Hypertext Processor. It is a server side scripting language that is used to produce dynamic web content among other things. </cite>
+                  </div>
+               </div>
+           </div>
+           <div class="col-lg-4  col-md-4 col-sm-6">
+              <div class="course" id="bootstrap">
+               <i class="fab fa-bootstrap"></i><hr/>
+                      <strong> BOOTSTRAP</strong><hr>
+                  <div  class="description align-middle">
+                      <cite>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</cite>
+                  </div>
+               </div>
+           </div>
+           <div class="col-lg-4  col-md-4 col-sm-6">
+              <div class="course" id="angular">
+               <i class="fab fa-angular"></i><hr/>
+                      <strong> ANGULAR</strong><hr>
+                  <div  class="description align-middle">
+                      <cite>Angular is a platform and framework for building single-page client applications using HTML and TypeScript.</cite>
+                  </div>
+               </div>
+           </div>
+           <div class="col-lg-6  col-md-6 col-sm-6">
+               <div class="course" id="seo">
+               <i class="icon-arrow-right"></i><hr/>
+                       <strong> SEO</strong><hr>
+                   <div  class="description align-middle">
+                       <cite>SEO stands for “search engine optimization.” It’s the practice of increasing both the quality
+and quantity of website traffic, as well as exposure to your brand, through non-paid (also
+known as "organic") search engine results.</cite>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-6  col-md-6 col-sm-6">
+              <div class="course" id="hosting">
+               <i class="icon-arrow-left"></i><hr/>
+                      <strong> HOSTING</strong><hr>
+                  <div  class="description align-middle">
+                      <cite>Hosting is a service through which storage and computing resources are providing to an individual or organization for the accommodation and maintenance of one or more websites and related services.</cite>
+                  </div>
+               </div>
+           </div>
+       </div>
+   </div> 
+</div>
+
+
+
+
+    <footer> 
+<div class="row"> 
+      
+    <div class="col-lg-6"></div>
+       <div class="col-lg-6">
+        <ul>
+               <li>
+                   <a href="https:/www.instagram.com" target="_blank">
+                       <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" id="social-icon"/>
+                   </a>
+               </li>
+               <li>
+                   <a href="https:/www.facebook.com" target="_blank">
+                       <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" id="social-icon"/>
+                   </a>
+               </li>
+               <li>
+                   <a href="https:/www.youtube.com" target="_blank">
+                       <img src="https://img.icons8.com/color/48/000000/youtube-play.png" id="social-icon"/>
+                   </a>
+               </li>
+               <li>
+                   <a href="https:/www.twitter.com" target="_blank">
+                       <img src="https://img.icons8.com/color/48/000000/twitter.png" id="social-icon"/>
+                  </a>
+               </li>
+               <li>
+                   <a href="https:/www.gmail.com" target="_blank">
+                       <img src="https://img.icons8.com/fluent/48/000000/gmail.png" id="social-icon"/>
+                   </a>  
+               </li>
+        </ul>
+        </div>
+</div>
+    </footer>  
+    <script type="text/javascript" src="../js/home.js" async>
+    
+    
+    </script>
+</body>
+</html>
